@@ -26,12 +26,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit();
         } else {
             // Password errata
-            header("Location: index.php?error=404");
+            header("Location: index.php?user");
             exit();
         }
     } else {
         // Username errato
-        header("Location: index.php?error=404");
+        header("Location: index.php?user");
         exit();
     }
 
