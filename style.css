@@ -1,0 +1,23 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#blogPosts{
+    max-width: 1000px;
+    background-color: rgb(93, 116, 218);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url() no-repeat;
+	background-size: cover;
+}
+
+header[
+    
+]
