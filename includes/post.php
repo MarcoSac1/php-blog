@@ -10,11 +10,10 @@ $arrPosts = $objBlogPost->getBlogPosts();
             if (count($arrPosts)) {
                 foreach ($arrPosts as $post) {
                     echo "<div class='post'>";
+                        echo "<h1>" . $post['id'] . "</h1>";
                         echo "<h1>" . $post['title'] . "</h1>";
                         echo "<p>" . $post['content'] . "</p>";
-                        echo "<img>" . $post['image'] ;
-                        echo "<span class='footer'>Posted By: " . $users['username'] . " Posted On: " . $post['created_at'] . "</span>";
-                    echo "</div>";
+                        echo "<img>" . $post['image'];
                 }
             }
         ?>

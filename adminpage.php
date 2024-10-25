@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-    <?php
+        <?php
         require "index.php";
     ?>
     </header>
